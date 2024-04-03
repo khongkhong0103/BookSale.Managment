@@ -1,0 +1,331 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.UI\\BookSale.Managment.UI.csproj": {}
+  },
+  "projects": {
+    "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\BookSale.Managment.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\BookSale.Managment.Application.csproj",
+        "projectName": "BookSale.Managment.Application",
+        "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\BookSale.Managment.Application.csproj",
+        "packagesPath": "C:\\Users\\84362\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\84362\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Domain\\BookSale.Managment.Domain.csproj": {
+                "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Domain\\BookSale.Managment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\BookSale.Managment.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\BookSale.Managment.DataAccess.csproj",
+        "projectName": "BookSale.Managment.DataAccess",
+        "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\BookSale.Managment.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\84362\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\84362\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Domain\\BookSale.Managment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Domain\\BookSale.Managment.Domain.csproj",
+        "projectName": "BookSale.Managment.Domain",
+        "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Domain\\BookSale.Managment.Domain.csproj",
+        "packagesPath": "C:\\Users\\84362\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\84362\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\BookSale.Managment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\BookSale.Managment.Infrastructure.csproj",
+        "projectName": "BookSale.Managment.Infrastructure",
+        "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\BookSale.Managment.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\84362\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\84362\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\BookSale.Managment.Application.csproj": {
+                "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\BookSale.Managment.Application.csproj"
+              },
+              "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\BookSale.Managment.DataAccess.csproj": {
+                "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\BookSale.Managment.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.UI\\BookSale.Managment.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.UI\\BookSale.Managment.UI.csproj",
+        "projectName": "BookSale.Managment.UI",
+        "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.UI\\BookSale.Managment.UI.csproj",
+        "packagesPath": "C:\\Users\\84362\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\84362\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\BookSale.Managment.Infrastructure.csproj": {
+                "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\BookSale.Managment.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "BookSale.Managment.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BookSale.Managment.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookSale.Managment.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookSale.Managment.Application.dll": {}
+        }
+      },
+      "BookSale.Managment.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BookSale.Managment.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookSale.Managment.DataAccess.dll": {}
+        }
+      },
+      "BookSale.Managment.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BookSale.Managment.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookSale.Managment.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookSale.Managment.Application/1.0.0": {
+      "type": "project",
+      "path": "../BookSale.Managment.Application/BookSale.Managment.Application.csproj",
+      "msbuildProject": "../BookSale.Managment.Application/BookSale.Managment.Application.csproj"
+    },
+    "BookSale.Managment.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BookSale.Managment.DataAccess/BookSale.Managment.DataAccess.csproj",
+      "msbuildProject": "../BookSale.Managment.DataAccess/BookSale.Managment.DataAccess.csproj"
+    },
+    "BookSale.Managment.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BookSale.Managment.Domain/BookSale.Managment.Domain.csproj",
+      "msbuildProject": "../BookSale.Managment.Domain/BookSale.Managment.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "BookSale.Managment.Application >= 1.0.0",
+      "BookSale.Managment.DataAccess >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\84362\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\BookSale.Managment.Infrastructure.csproj",
+      "projectName": "BookSale.Managment.Infrastructure",
+      "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\BookSale.Managment.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\84362\\.nuget\\packages\\",
+      "outputPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\84362\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\BookSale.Managment.Application.csproj": {
+              "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.Application\\BookSale.Managment.Application.csproj"
+            },
+            "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\BookSale.Managment.DataAccess.csproj": {
+              "projectPath": "D:\\Source\\Visual studio\\.NET\\BookSale.Managment\\BookSale.Managment.DataAccess\\BookSale.Managment.DataAccess.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

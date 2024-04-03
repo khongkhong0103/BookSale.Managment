@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookSale.Managment.UI.props" />
+</Project>
